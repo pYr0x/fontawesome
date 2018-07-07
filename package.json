@@ -1,0 +1,27 @@
+{
+  "name": "fa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.0",
+    "@fortawesome/free-brands-svg-icons": "^5.1.0",
+    "@fortawesome/free-regular-svg-icons": "^5.1.0",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0",
+    "steal": "^1.12.3",
+    "steal-tools": "^1.11.9"
+  },
+  "steal": {
+    "main": "main",
+    "meta": {
+      "@fortawesome/fontawesome-svg-core": {
+        "format": "es6"
+      }
+    }
+  }
+}
